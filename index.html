@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>王亦如的電子名片</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark"></div>
+        <div>
+          <p class="brand-title">Yiru Wang</p>
+          <span class="brand-sub">個人電子名片 | Personal Profile</span>
+        </div>
+      </div>
+
+      <div class="topbar-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">🌙</button>
+        <button id="langToggle" class="text-btn">EN</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-glow" id="home">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Hello, 我是</p>
+            <h1 data-i18n="heroTitle">王亦如</h1>
+            <p class="hero-sub" data-i18n="heroSubtitle">我喜歡看小說、和朋友聊天，也愛把生活變成一段小冒險。</p>
+            <div class="hero-tags">
+              <span>MBTI: INTP</span>
+              <span>興趣: 閱讀、設計、日常探險</span>
+              <span>性格: 膽小內向但企圖心十足</span>
+            </div>
+            <div class="hero-actions">
+              <a href="#about" class="btn btn-primary" data-i18n="btnDiscover">來認識我</a>
+              <a href="#contact" class="btn btn-secondary" data-i18n="btnContact">聯絡我</a>
+              <a href="resume.txt" class="btn btn-primary" download data-i18n="btnResume">下載履歷</a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="visual-card">
+              <div class="visual-card__inner">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 520'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%2317ffaf'/%3E%3Cstop offset='100%25' stop-color='%23043737'/%3E%3C/linearGradient%3E%3Cfilter id='f'%3E%3CfeGaussianBlur stdDeviation='16'/%3E%3C/filter%3E%3C/defs%3E%3Crect x='0' y='0' width='520' height='520' rx='48' fill='url(%23g)'/%3E%3Cpath d='M64 220 C140 140 204 260 328 180 C420 110 495 290 452 362 C410 430 305 512 176 456 C70 410 48 320 64 220 Z' fill='rgba(255,255,255,0.16)' filter='url(%23f)'/%3E%3Cpath d='M420 120 C340 70 300 180 240 160 C160 130 120 240 192 290 C270 350 350 280 430 240 Z' fill='rgba(255,255,255,0.24)'/%3E%3C/text%3E%3C/svg%3E" alt="Abstract green wave" class="hero-image">
+                <div class="visual-badge">
+                  <span data-i18n="visualBadge">自我介紹</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-header">
+          <h2 data-i18n="aboutTitle">關於我</h2>
+          <p data-i18n="aboutIntro">我是一名北醫臨床藥學系學生，喜歡把學術與生活設計成一場有趣的旅程。</p>
+        </div>
+
+        <div class="about-grid">
+          <article class="info-card">
+            <h3 data-i18n="aboutCard1Title">學習旅程</h3>
+            <p data-i18n="aboutCard1Text">從高中奮鬥到考上北醫臨床藥學系，我熱愛藥學的細節與人性關懷。</p>
+          </article>
+          <article class="info-card">
+            <h3 data-i18n="aboutCard2Title">興趣節奏</h3>
+            <p data-i18n="aboutCard2Text">閒暇時我會讀小說、聽獨立音樂，偶爾擔任朋友的心情小相談。</p>
+          </article>
+          <article class="info-card">
+            <h3 data-i18n="aboutCard3Title">內向但熱情</h3>
+            <p data-i18n="aboutCard3Text">雖然我生性害羞，但我希望透過筆與對話，讓每一次交流都更有溫度。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section stats" id="achievements">
+        <div class="section-header">
+          <h2 data-i18n="achievementTitle">我的事蹟</h2>
+          <p data-i18n="achievementIntro">以虛擬人物設定打造豐富而引人入勝的學習故事。</p>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <p class="stat-number">01</p>
+            <h3 data-i18n="achievement1Title">考上北醫</h3>
+            <p data-i18n="achievement1Text">臨床藥學系第一志願錄取，夢想從醫療科學出發。</p>
+          </div>
+          <div class="stat-card">
+            <p class="stat-number">02</p>
+            <h3 data-i18n="achievement2Title">學生專題</h3>
+            <p data-i18n="achievement2Text">參與藥物動力學研究，探索新型治療方案的可能性。</p>
+          </div>
+          <div class="stat-card">
+            <p class="stat-number">03</p>
+            <h3 data-i18n="achievement3Title">社群參與</h3>
+            <p data-i18n="achievement3Text">擔任系上社團活動策劃，串連同學與講師的對話。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-header">
+          <h2 data-i18n="contactTitle">聯絡我</h2>
+          <p data-i18n="contactIntro">歡迎來信、追蹤我的 IG，或與我一起分享閱讀心得。</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3 data-i18n="contactCard1Title">社群平台</h3>
+            <p><strong>IG</strong>: <a href="https://instagram.com/ririririri-0826" target="_blank">ririririri–0826</a></p>
+            <p><strong>Line</strong>: @yiru.chat</p>
+            <p><strong>Mail</strong>: <a href="mailto:yiru.wang@example.com">yiru.wang@example.com</a></p>
+          </div>
+          <div class="contact-card contact-card--accent">
+            <h3 data-i18n="contactCard2Title">個人座右銘</h3>
+            <blockquote data-i18n="contactQuote">在害羞和勇氣之間，我選擇每天都往前踏出一小步。</blockquote>
+            <p data-i18n="contactExtra">如果你也喜歡故事、療癒與創意，讓我們一起把平凡的日常變成溫柔的冒險。</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://cdnjs.clo                                                                                                                                                              udflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
